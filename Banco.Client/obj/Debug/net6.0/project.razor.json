@@ -46,39 +46,76 @@
         }
       },
       {
-        "HashCode": 1499536695,
+        "HashCode": -2034860562,
         "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.RegistroUsuario",
+        "Name": "Banco.Client.Pages.SolicitudPrestamo",
         "AssemblyName": "Banco.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "RegistroUsuario"
+            "TagName": "SolicitudPrestamo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.RegistroUsuario",
+          "Common.TypeName": "Banco.Client.Pages.SolicitudPrestamo",
           "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "RegistroUsuario"
+          "Common.TypeNameIdentifier": "SolicitudPrestamo"
         }
       },
       {
-        "HashCode": 304188015,
+        "HashCode": 1741096,
         "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.RegistroUsuario",
+        "Name": "Banco.Client.Pages.SolicitudPrestamo",
         "AssemblyName": "Banco.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Banco.Client.Pages.RegistroUsuario"
+            "TagName": "Banco.Client.Pages.SolicitudPrestamo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.RegistroUsuario",
+          "Common.TypeName": "Banco.Client.Pages.SolicitudPrestamo",
           "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "RegistroUsuario",
+          "Common.TypeNameIdentifier": "SolicitudPrestamo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1956328199,
+        "Kind": "Components.Component",
+        "Name": "Banco.Client.Pages.Login",
+        "AssemblyName": "Banco.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Banco.Client.Pages.Login",
+          "Common.TypeNamespace": "Banco.Client.Pages",
+          "Common.TypeNameIdentifier": "Login"
+        }
+      },
+      {
+        "HashCode": -1388164764,
+        "Kind": "Components.Component",
+        "Name": "Banco.Client.Pages.Login",
+        "AssemblyName": "Banco.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Banco.Client.Pages.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Banco.Client.Pages.Login",
+          "Common.TypeNamespace": "Banco.Client.Pages",
+          "Common.TypeNameIdentifier": "Login",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -116,6 +153,80 @@
           "Common.TypeName": "Banco.Client.Pages.Index",
           "Common.TypeNamespace": "Banco.Client.Pages",
           "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1499536695,
+        "Kind": "Components.Component",
+        "Name": "Banco.Client.Pages.RegistroUsuario",
+        "AssemblyName": "Banco.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RegistroUsuario"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Banco.Client.Pages.RegistroUsuario",
+          "Common.TypeNamespace": "Banco.Client.Pages",
+          "Common.TypeNameIdentifier": "RegistroUsuario"
+        }
+      },
+      {
+        "HashCode": 304188015,
+        "Kind": "Components.Component",
+        "Name": "Banco.Client.Pages.RegistroUsuario",
+        "AssemblyName": "Banco.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Banco.Client.Pages.RegistroUsuario"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Banco.Client.Pages.RegistroUsuario",
+          "Common.TypeNamespace": "Banco.Client.Pages",
+          "Common.TypeNameIdentifier": "RegistroUsuario",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 968156032,
+        "Kind": "Components.Component",
+        "Name": "Banco.Client.Pages.Counter",
+        "AssemblyName": "Banco.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Banco.Client.Pages.Counter",
+          "Common.TypeNamespace": "Banco.Client.Pages",
+          "Common.TypeNameIdentifier": "Counter"
+        }
+      },
+      {
+        "HashCode": 267000251,
+        "Kind": "Components.Component",
+        "Name": "Banco.Client.Pages.Counter",
+        "AssemblyName": "Banco.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Banco.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Banco.Client.Pages.Counter",
+          "Common.TypeNamespace": "Banco.Client.Pages",
+          "Common.TypeNameIdentifier": "Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -194,76 +305,39 @@
         }
       },
       {
-        "HashCode": 968156032,
+        "HashCode": 366723907,
         "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.Counter",
+        "Name": "Banco.Client.Pages.Graficas",
         "AssemblyName": "Banco.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Graficas"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.Counter",
+          "Common.TypeName": "Banco.Client.Pages.Graficas",
           "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "Counter"
+          "Common.TypeNameIdentifier": "Graficas"
         }
       },
       {
-        "HashCode": 267000251,
+        "HashCode": -877493458,
         "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.Counter",
+        "Name": "Banco.Client.Pages.Graficas",
         "AssemblyName": "Banco.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Banco.Client.Pages.Counter"
+            "TagName": "Banco.Client.Pages.Graficas"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.Counter",
+          "Common.TypeName": "Banco.Client.Pages.Graficas",
           "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1956328199,
-        "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.Login",
-        "AssemblyName": "Banco.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.Login",
-          "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "Login"
-        }
-      },
-      {
-        "HashCode": -1388164764,
-        "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.Login",
-        "AssemblyName": "Banco.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Banco.Client.Pages.Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.Login",
-          "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "Login",
+          "Common.TypeNameIdentifier": "Graficas",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -305,76 +379,39 @@
         }
       },
       {
-        "HashCode": -2034860562,
+        "HashCode": 476927935,
         "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.SolicitudPrestamo",
+        "Name": "Banco.Client.Pages.Prestamos",
         "AssemblyName": "Banco.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SolicitudPrestamo"
+            "TagName": "Prestamos"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.SolicitudPrestamo",
+          "Common.TypeName": "Banco.Client.Pages.Prestamos",
           "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "SolicitudPrestamo"
+          "Common.TypeNameIdentifier": "Prestamos"
         }
       },
       {
-        "HashCode": 1741096,
+        "HashCode": 1268645737,
         "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.SolicitudPrestamo",
+        "Name": "Banco.Client.Pages.Prestamos",
         "AssemblyName": "Banco.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Banco.Client.Pages.SolicitudPrestamo"
+            "TagName": "Banco.Client.Pages.Prestamos"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.SolicitudPrestamo",
+          "Common.TypeName": "Banco.Client.Pages.Prestamos",
           "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "SolicitudPrestamo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 366723907,
-        "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.Graficas",
-        "AssemblyName": "Banco.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Graficas"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.Graficas",
-          "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "Graficas"
-        }
-      },
-      {
-        "HashCode": -877493458,
-        "Kind": "Components.Component",
-        "Name": "Banco.Client.Pages.Graficas",
-        "AssemblyName": "Banco.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Banco.Client.Pages.Graficas"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Banco.Client.Pages.Graficas",
-          "Common.TypeNamespace": "Banco.Client.Pages",
-          "Common.TypeNameIdentifier": "Graficas",
+          "Common.TypeNameIdentifier": "Prestamos",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15807,6 +15844,11 @@
   },
   "RootNamespace": "Banco.Client",
   "Documents": [
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Prestamos.razor",
+      "TargetPath": "Pages\\Prestamos.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",

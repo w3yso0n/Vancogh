@@ -1,45 +1,24 @@
 @page "/graficas"
 
-@using ChartJs.Blazor.Charts
+
 
 <PageTitle>Historial Pagos</PageTitle>
 
-<Chart Type="Bar" Data="@ChartData" Options="@ChartOptions" />
+<canvas id="myChart"></canvas>
 
 @code {
+    [Inject]
+    public IJSRuntime JSRuntime { get; set; }
 
-    private ChartData _chartData;
-
-    private ChartOptions _chartOptions = new ChartOptions
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        Scales = new Scales
+        if (firstRender)
         {
-            YAxes = new List<CartesianAxis>
-            {
-                new LinearCartesianAxis { Ticks = new LinearCartesianTicks { BeginAtZero = true } }
-            }
+            var labels = new[] { "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" };
+            var data = new[] { 5000, 6500, 6000, 6000, 5500, 7500, 600 };
+            await JSRuntime.InvokeVoidAsync("drawChart", labels, data);
         }
-    };
-
-    protected override async Task OnInitializedAsync()
-    {
-        _chartData = new ChartData
-        {
-            Labels = new[] { "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre" },
-            Datasets = new[]
-            {
-                new BarDataset<decimal>
-                {
-                    Label = "Historial de Pagos",
-                    Data = new[] { 5000m, 6500m, 6000m, 6000m, 5500m, 7500m },
-                    BackgroundColor = new[] { "#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#aaf048" }
-                }
-            }
-        };
     }
-
-    private ChartData ChartData => _chartData;
-
-    private ChartOptions ChartOptions => _chartOptions;
-
 }
+
+  
