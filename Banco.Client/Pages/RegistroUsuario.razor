@@ -1,0 +1,37 @@
+@page "/RegistroUsr"
+
+<PageTitle>Login</PageTitle>
+
+<h1>Inicio de Sesion</h1>
+
+Bienvenido
+
+<form>
+  <div class="mb-3">
+    <label for="nombre">Nombre:</label>
+    <input class="form-control" type="text" id="nombre" name="nombre" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required />
+    <div id="NombreHelp" class="form-text">
+    El nombre no deberá contener numeros.
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="apellido">Apellido:</label>
+    <input class="form-control" type="text" id="apellido" name="apellido" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required />
+    <div id="ApellidoHelp" class="form-text">
+    El Apellido no deberá contener numeros.
+    </div>
+  </div>
+  <div class="mb-3"> 
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input class="form-control" type="date" id="fechaNacimiento" name="fechaNacimiento" max="2005-12-31" required />
+    <div id="ApellidoHelp" class="form-text">
+    La fecha de nacimiento no puede ser antes de 1962.
+    </div>
+  </div>
+  <div class="mb-3 ">
+    <label for="curp">CURP:</label>
+    <input class="form-control" type="text" id="curp" name="curp" pattern="[A-Z]{4}[0-9]{6}[H,M][A-Z]{5}[A-Z0-9]{2}" required />
+
+  </div>
+  <button class="btn btn-outline-primary" type="submit">Registrar</button>
+</form>

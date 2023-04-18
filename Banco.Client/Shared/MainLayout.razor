@@ -1,0 +1,74 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Banco.Client</a>
+
+    </div>
+</div>
+
+<div>
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink href="" >
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink  href="Login">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Login
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink  href="RegistroUsr">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> RegistroUsr
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink  href="RegistroEmp">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> RegistroEmpelado
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink  href="Graficas">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Graficas
+            </NavLink>
+        </div>
+         <div class="nav-item px-3">
+            <NavLink  href="solicitud-prestamo">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Solicitud Prestamo
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink  href="Comportamiento">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Good boy¿
+            </NavLink>
+        </div>
+
+         <div class="nav-item px-3">
+            <NavLink  href="SolicitudVacaciones">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Good boy¿
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>

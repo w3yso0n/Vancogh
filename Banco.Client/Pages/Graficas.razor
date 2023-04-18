@@ -1,0 +1,45 @@
+@page "/graficas"
+
+@using ChartJs.Blazor.Charts
+
+<PageTitle>Historial Pagos</PageTitle>
+
+<Chart Type="Bar" Data="@ChartData" Options="@ChartOptions" />
+
+@code {
+
+    private ChartData _chartData;
+
+    private ChartOptions _chartOptions = new ChartOptions
+    {
+        Scales = new Scales
+        {
+            YAxes = new List<CartesianAxis>
+            {
+                new LinearCartesianAxis { Ticks = new LinearCartesianTicks { BeginAtZero = true } }
+            }
+        }
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        _chartData = new ChartData
+        {
+            Labels = new[] { "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre" },
+            Datasets = new[]
+            {
+                new BarDataset<decimal>
+                {
+                    Label = "Historial de Pagos",
+                    Data = new[] { 5000m, 6500m, 6000m, 6000m, 5500m, 7500m },
+                    BackgroundColor = new[] { "#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#aaf048" }
+                }
+            }
+        };
+    }
+
+    private ChartData ChartData => _chartData;
+
+    private ChartOptions ChartOptions => _chartOptions;
+
+}

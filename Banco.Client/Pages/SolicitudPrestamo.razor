@@ -1,0 +1,23 @@
+@page "/solicitud-prestamo"
+
+<PageTitle>Solicitud de Préstamo</PageTitle>
+
+<h1>Solicitud de Préstamo</h1>
+
+<form>
+  <div class="mb-3">
+    <label for="cantidad">Cantidad solicitada</label>
+    <input type="number" class="form-control" id="cantidad" name="cantidad" min="1" required>
+    <small class="form-text text-muted">La cantidad solicitada debe ser mayor a cero.</small>
+  </div>
+  <div class="mb-3">
+    <label for="plazo">Plazo</label>
+    <select class="form-control" id="plazo" name="plazo" required>
+      <option value="" disabled selected>Seleccione una opción</option>
+      <option value="3">3 meses</option>
+      <option value="6">6 meses</option>
+      <option value="12">12 meses</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+</form>
