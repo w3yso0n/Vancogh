@@ -1,0 +1,117 @@
+{
+  "SerializedFilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Banco.Client.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "7.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "Banco.Client",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Prestamos.razor",
+      "TargetPath": "Pages\\Prestamos.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\InfoCuentaUsuario.razor",
+      "TargetPath": "Pages\\InfoCuentaUsuario.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\SolicitudVacaciones.razor",
+      "TargetPath": "Pages\\SolicitudVacaciones.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\GerenteAdministracionUsuarios.razor",
+      "TargetPath": "Pages\\GerenteAdministracionUsuarios.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\HistorialPagos.razor",
+      "TargetPath": "Pages\\HistorialPagos.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\SolicitudPrestamo.razor",
+      "TargetPath": "Pages\\SolicitudPrestamo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Comportamiento.razor",
+      "TargetPath": "Pages\\Comportamiento.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\PrestamosGerente.razor",
+      "TargetPath": "Pages\\PrestamosGerente.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\RegistroUsuario.razor",
+      "TargetPath": "Pages\\RegistroUsuario.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\RegistroEmpelado.razor",
+      "TargetPath": "Pages\\RegistroEmpelado.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\ReportesGerenteGenerar.razor",
+      "TargetPath": "Pages\\ReportesGerenteGenerar.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Graficas.razor",
+      "TargetPath": "Pages\\Graficas.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\Rifa.razor",
+      "TargetPath": "Pages\\Rifa.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Documents\\banco\\Banco.Client\\Pages\\ReportesGerenteVer.razor",
+      "TargetPath": "Pages\\ReportesGerenteVer.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}
