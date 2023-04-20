@@ -1,0 +1,72 @@
+@page "/PrestamosGerente"
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Información de Préstamos</title>
+    <style>
+      /* Estilos para la página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      
+      h1 {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        margin: 0;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+      }
+      
+      /* Estilos para la tabla */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Información de Préstamos</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Fecha de Solicitud</th>
+            <th>Fecha de Aprobación</th>
+            <th>Pago por Mes</th>
+            <th>Fecha de Último Pago Recibido</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>123456</td> <!-- Este número debe ser generado aleatoriamente y ser único -->
+            <td>18/04/2023</td> <!-- Esta fecha debe ser la misma que la fecha de solicitud -->
+            <td>20/04/2023</td> <!-- Esta fecha no puede ser anterior a la fecha de solicitud -->
+            <td>$500</td> <!-- Este valor debe ser el mismo para todos los meses -->
+            <td>18/03/2024</td> <!-- Esta fecha debe ser actualizada cada vez que se reciba un pago -->
+          </tr>
+          <!-- Puedes agregar más filas según tus necesidades -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
