@@ -1,0 +1,84 @@
+@page "/HistorialPagos"
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Historial de Préstamos</title>
+    <style>
+      /* Estilos para la tabla */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      /* Estilos para la página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      
+      h1 {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        margin: 0;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Historial de Préstamos</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Folio de préstamo</th>
+            <th>Cantidad</th>
+            <th>Pago N° de N número de pagos (1 de 36)</th>
+            <th>Fecha de solicitud de préstamo</th>
+            <th>Fecha de liquidación de préstamo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1234</td>
+            <td>$10,000</td>
+            <td>1 de 36</td>
+            <td>01/01/2022</td>
+            <td>01/01/2023</td>
+          </tr>
+          <tr>
+            <td>5678</td>
+            <td>$5,000</td>
+            <td>1 de 24</td>
+            <td>02/01/2022</td>
+            <td>02/01/2023</td>
+          </tr>
+          <!-- Agrega más filas según sea necesario -->
+        </tbody>
+      </table>
+      <br>
+      <label for="historial-pagos">Historial de Pagos:</label>
+      <textarea id="historial-pagos" rows="10" cols="50">
+        <!-- Aquí se mostrará el historial de pagos -->
+      </textarea>
+    </div>
+  </body>
+</html>
