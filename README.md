@@ -1,6 +1,3 @@
-![Logo](https://francoaldrete.com/gymbud/recursos/gyumbudreadme.png)
-
-
 # Vancogh
 
 Penelope diaz esta en la casa mibro
