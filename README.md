@@ -14,6 +14,6 @@ Penelope diaz esta en la casa mibro
 
 ## Project Dreamteam
 
-![App Screenshot](https://francoaldrete.com/ropainv.jpg)
+![App Screenshot](https://github.com/Jalvala147/lol/blob/main/WhatsApp%20Image%202023-04-20%20at%208.33.28%20PM.jpeg?raw=true)
 
 
